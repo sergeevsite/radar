@@ -1,0 +1,65 @@
+.footer
+  position: relative
+  z-index: 10
+  &-block
+    display: flex
+    justify-content: space-between
+  &-menu
+    display: flex
+    justify-content: space-between
+  &-links
+    display: flex
+    flex-direction: column
+    margin-right: 100px
+    &:last-child
+      margin-right: 0
+    &__title
+      margin-bottom: 20px
+      font-size: 18px
+      font-weight: bold
+      color: $main-color
+      transition: 0.2s
+      &:hover
+        color: $text-color
+    &__item
+      margin-bottom: 10px
+      transition: 0.2s
+      &:hover
+        color: $main-color
+      &:last-child
+        margin-bottom: 0
+  &-connect
+    display: flex
+    justify-content: space-between
+    margin-top: 100px
+    margin-bottom: 60px
+    i
+      font-size: 22px
+      font-weight: normal
+      transition: 0.2s
+  &-contacts
+    display: flex
+    margin-left: 185px
+    font-size: 18px
+    font-weight: 900
+  &__phone
+    margin-right: 60px
+  &__phone, &__email
+    &:hover
+      color: darken($main-color, 10%)
+  &-social
+    display: flex
+    justify-content: space-between
+    width: 166px
+    i
+      &:hover
+        color: $text-color
+  &-company
+    padding: 13px 0
+    background-color: $main-color
+  &-wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-size: 14px
+    color: $second-color

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Радар недвижимости</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fontawesome.min.css">
+  <link rel="SHORTCUT ICON" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Шапка страницы -->
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="header-block">
+          <a href="./index.html"><img class="header__logo" src="./img/header/logo.png" alt="Логотип"></a>
+          <div class="header-navbar">
+            <nav>
+              <!-- Основное меню -->
+              <ul class="header-menu">
+                <li class="header-menu__item header-menu__item_active">
+                  <a class="header-menu__link" href="">О радаре</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="">Все новостройки</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="">Подбор новостроек</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="">Ипотека</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="">Новости недвижимост</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="">Контакты</a>
+                </li>
+              </ul>
+              <!-- Мобильное меню -->
+              <ul id="menuList" class="header-mobile">
+                <li class="header-mobile__item header-mobile__item_active">
+                  <a class="header-mobile__link" href="">О радаре</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a class="header-mobile__link" href="">Все новостройки</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a class="header-mobile__link" href="">Подбор новостроек</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a class="header-mobile__link" href="">Ипотека</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a class="header-mobile__link" href="">Новости недвижимост</a>
+                </li>
+                <li class="header-mobile__item">
+                  <a class="header-mobile__link" href="">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="button header__button">Заказать звонок</button>
+            <div id="menuButton" class="header-mobile__button"></div>
+          </div>
+          <!-- /.header-navbar -->
+        </div>
+        <!-- /.header header__block -->
+      </div>
+      <!-- /.container -->
+    </div>
+  </header>
+
+  <!-- Контент страницы -->
+  <main>
+    <section class="hero">
+      <img src="./img/header/loupe.png" alt="Лупа" class="hero-circle__image">
+      <div class="hero-circle"></div>
+      <div class="container">
+        <div class="hero-block">
+          <h1 class="hero-block__title">Радар</h1>
+          <span class="hero-block__subtitle">это больше чем каталог недвижимости</span>
+          <button class="button hero-block__button">Приступить к поиску</button>
+          <div class="hero-virtues">
+            <div class="hero-virtues__icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <p class="hero-virtues__text">На Радаре 15024 варианта квартир в новостройках г.Новосибирска</p>
+          </div>
+          <div class="hero-virtues">
+            <div class="hero-virtues__icon">
+              <i class="fas fa-crosshairs"></i>
+            </div>
+            <p class="hero-virtues__text">Радар помог 2757 семьям найти новое жилье</p>
+          </div>
+          <div class="hero-virtues">
+            <div class="hero-virtues__icon">
+              <i class="far fa-thumbs-up"></i>
+            </div>
+            <p class="hero-virtues__text">На Радаре только проверенные  и надежные застройщики, каждый объект недвижимости тщательно проверяется специалистами радара</p>
+          </div>
+        </div>
+        <!-- /.hero-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog-block">
+          <h2 class="title catalog-block__title">Каталог</h2>
+          <span class="subtitle catalog-block__subtitle">жилых комплексов</span>
+          <div class="catalog-cards">
+
+            <!-- Карточка товара -->
+            <div class="card catalog__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «На Демьяна Бедного»</h3>
+              </div>
+              <img src="./img/catalog/housing-1.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card catalog__card -->
+            
+            <!-- Карточка товара -->
+            <div class="card catalog__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой дом на Карамзина, 53 стр.</h3>
+              </div>
+              <img src="./img/catalog/housing-2.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card catalog__card -->
+
+            <!-- Карточка товара -->
+            <div class="card catalog__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «Бавария» </h3>
+              </div>
+              <img src="./img/catalog/housing-3.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card catalog__card -->
+
+            <!-- Карточка товара -->
+            <div class="card catalog__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «Оазис»</h3>
+              </div>
+              <img src="./img/catalog/housing-4.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card catalog__card -->
+
+          </div>
+          <!-- /.catalog-cards -->
+          <button class="button button-offer catalog-block__button">Смотреть все комплексы</button>
+        </div>
+        <!-- /.catalog-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.catalog -->
+
+    <section class="news">
+      <div class="container">
+        <h2 class="title news-block__title">Новости</h2>
+        <span class="subtitle news-block__subtitle">недвижимости</span>
+        <div class="news-block">
+          <div class="news-content">
+            <h3 class="news-content__title">Ученые обнаружили на Юпитере пульсирующее сияние</h3>
+            <span class="news-content__data">03.11.2017г</span>
+            <p class="news-content__text">Международная группа ученых зафиксировала появление на южном полюсе Юпитере рентгеновских полярных сияний. Причину явления специалисты пока не смогли установить. По мнению ученых, вспышки появляются из-за различных процессов в магнитном поле планеты.</p>
+            <button class="button news__button">Подробнее</button>
+          </div>
+          <div class="news-list">
+            <div class="news-item">
+              <h4 class="news-item__title">«М.Видео» запускает trade-in старых смартфонов Apple и Samsung</h4>
+              <span class="news-item__data">02.11.2017г</span>
+              <a href="#" class="news-item__more">Подробнее...</a>
+            </div>
+            <div class="news-item">
+              <h4 class="news-item__title">В России льготный лизинг расширили на легковые автомобили</h4>
+              <span class="news-item__data">01.11.2017г</span>
+              <a href="#" class="news-item__more">Подробнее...</a>
+            </div>
+          </div>
+          <!-- /.news-list -->
+        </div>
+        <!-- /.news-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.news -->
+
+    <section class="offers">
+      <div class="container">
+        <div class="offers-block">
+          <h2 class="title offers-block__title">Лучшие</h2>
+          <span class="subtitle offers-block__subtitle">предложения недвижимости</span>
+          <div class="offers-cards">
+
+            <!-- Карточка товара -->
+            <div class="card offers__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «На Демьяна Бедного»</h3>
+              </div>
+              <img src="./img/offers/housing-1.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card offers__card -->
+            
+            <!-- Карточка товара -->
+            <div class="card offers__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой дом на Карамзина, 53 стр.</h3>
+              </div>
+              <img src="./img/offers/housing-2.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card offers__card -->
+
+            <!-- Карточка товара -->
+            <div class="card offers__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «Бавария» </h3>
+              </div>
+              <img src="./img/offers/housing-3.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card offers__card -->
+
+            <!-- Карточка товара -->
+            <div class="card offers__card">
+              <div class="card-title">
+                <i class="far fa-building"></i>
+                <h3 class="card-title__text">Жилой комплекс «Оазис»</h3>
+              </div>
+              <img src="./img/offers/housing-4.jpg" alt="Жилой комплекс" class="img card__image">
+              <div class="card-info">
+                <i class="fas fa-info-circle"></i>
+                <div class="card-text">
+                  <div class="card-description">
+                    <span class="card-description__label">Район:</span>
+                    <span class="card-description__value">Калининский</span>
+                  </div>
+                  <div class="card-description">
+                    <span class="card-description__label">Цены:</span>
+                    <span class="card-description__value">от 2,5 млн руб</span>
+                  </div>
+                </div>
+              </div>
+              <button class="button card__button">Подробнее</button>
+            </div>
+            <!-- /.card offers__card -->
+
+          </div>
+          <!-- /.offers-cards -->
+          <button class="button button-offer offers-block__button">Смотреть все предложения</button>
+        </div>
+        <!-- /.offers-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.offers -->
+
+    <section class="select">
+      <div class="container">
+        <div class="select-block">
+          <h2 class="select-block__title">Выбрать</h2>
+          <span class="select-block__subtitle">квартиру по собственным параметрам</span>
+          <button class="button button-offer select-block__button">Смотреть все предложения</button>
+        </div>
+        <!-- /.select-block -->
+      </div>
+      <!-- /.container -->
+      <div class="select-wrap">
+        <img src="./img/select/bg-select.png" alt="Жилой комплекс" class="select-wrap__image">
+      </div>
+      <div class="select-circle">
+        <div class="select-circle__more"></div>
+      </div>
+    </section>
+    <!-- /.select -->
+  </main>
+
+  <!-- Подвал страницы -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <div class="footer-logo">
+            <img src="./img/header/logo.png" alt="Логотип" class="footer-logo__image">
+          </div>
+          <div class="footer-menu">
+            <div class="footer-links">
+              <a href="#" class="footer-links__title">О Радаре</a>
+              <a href="#" class="footer-links__item">Что такое радар</a>
+              <a href="#" class="footer-links__item">Как это работает</a>
+              <a href="#" class="footer-links__item">В чем удобство</a>
+            </div>
+            <div class="footer-links">
+              <a href="#" class="footer-links__title">Все новостройки</a>
+              <a href="#" class="footer-links__item">Левый берег</a>
+              <a href="#" class="footer-links__item">Правый берег</a>
+            </div>
+            <div class="footer-links">
+              <a href="#" class="footer-links__title">Подбор новостроек</a>
+              <a href="#" class="footer-links__item">По району</a>
+              <a href="#" class="footer-links__item">По бюджету</a>
+            </div>
+            <div class="footer-links">
+              <a href="#" class="footer-links__title">Ипотека</a>
+              <a href="#" class="footer-links__item">Как оформить</a>
+              <a href="#" class="footer-links__item">Какие банки</a>
+            </div>
+            <div class="footer-links">
+              <a href="#" class="footer-links__title">Контакты</a>
+              <a href="#" class="footer-links__item">Позвонить нам</a>
+              <a href="#" class="footer-links__item">Написать нам</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.footer-block -->
+        <div class="footer-connect">
+          <div class="footer-contacts">
+            <div class="footer-phone">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+79139148346 " class="footer__phone">+7(913) 914-83-46</a>
+            </div>
+            <div class="footer-email">
+              <i class="far fa-envelope"></i>
+              <a href="mailto:info@naradare.online" class="footer__email">info@naradare.online</a>
+            </div>
+          </div>
+          <!-- /.footer-contacts -->
+          <div class="footer-social">
+            <a href="#" class="footer-social__link">
+              <i class="fab fa-google-plus-square"></i>
+            </a>
+            <a href="#" class="footer-social__link">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#" class="footer-social__link">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="footer-social__link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-social__link">
+              <i class="fab fa-vk"></i>
+            </a>
+          </div>
+          <!-- /.footer-social -->
+        </div>
+        <!-- /.footer-connect -->
+      </div>
+      <!-- /.container -->
+      <div class="footer-company">
+        <div class="container">
+          <div class="footer-wrap">
+            <span class="footer-wrap__text">ООО «Радар Недвижимости». Все права защищены © 2017</span>
+            <img src="./img/footer/logo.png" alt="Логотип Lemur" class="footer-wrap__logo">
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.footer-company -->
+    </div>
+    <!-- /.footer -->
+  </footer>
+  <!-- Подключение скриптов -->
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/function.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+
+body
+  font-family: 'Mediator', sans-serif
+  background-color: $bg-color
+  color: $text-color
+img
+  max-width: 100%
+section
+  padding: 60px 0
+a
+  text-decoration: none
+  color: $text-color
+i
+  font-family: 'fontawesome' !important
+  color: $main-color
+.container
+  max-width: 1270px
+  margin: auto
+.button
+  padding: 11px 43px
+  border: none
+  background-color: $main-color
+  color: $second-color
+  outline: none
+  cursor: pointer
+  transition: 0.2s
+  &:hover
+    background-color: darken($main-color, 10%)
+  &-offer
+    display: block
+    margin: auto 
+    margin-top: 62px
+    padding: 11px 50px
+    box-shadow: 0 20px 35px rgba(38, 38, 38, 0.2)
+    &:hover
+      background-color: darken($main-color, 10%)
+      box-shadow: none
+.title
+  font-size: 62px
+  font-weight: 900
+  text-transform: uppercase
+.subtitle
+  display: block
+  padding-left: 167px
+  font-size: 22px
+  font-weight: 700

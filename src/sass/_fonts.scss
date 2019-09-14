@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Mediator';
+    src: url('../fonts/Mediator/Mediator-Regular.eot');
+    src: local('Mediator'), local('Mediator-Regular'),
+        url('../fonts/Mediator/Mediator-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mediator/Mediator-Regular.woff2') format('woff2'),
+        url('../fonts/Mediator/Mediator-Regular.woff') format('woff'),
+        url('../fonts/Mediator/Mediator-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mediator';
+  src: url('../fonts/Mediator/Mediator-Bold.eot');
+  src: local('Mediator Bold'), local('Mediator-Bold'),
+      url('../fonts/Mediator/Mediator-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Mediator/Mediator-Bold.woff2') format('woff2'),
+      url('../fonts/Mediator/Mediator-Bold.woff') format('woff'),
+      url('../fonts/Mediator/Mediator-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mediator';
+  src: url('../fonts/Mediator/Mediator-Black.eot');
+  src: local('Mediator Black'), local('Mediator-Black'),
+      url('../fonts/Mediator/Mediator-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Mediator/Mediator-Black.woff2') format('woff2'),
+      url('../fonts/Mediator/Mediator-Black.woff') format('woff'),
+      url('../fonts/Mediator/Mediator-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+

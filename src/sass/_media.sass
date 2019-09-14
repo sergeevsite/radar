@@ -1,0 +1,197 @@
+// Секция header
+@media (max-width: 1200px)
+  .container
+    padding: 0 15px
+  .button
+    font-size: 14px
+  .header
+    &-block
+      top: -25px
+    &__button
+      display: none
+@media (max-width: 992px)
+  section
+    padding: 30px 0
+  .title
+    font-size: 45px
+  .subtitle
+    font-size: 18px
+    margin-bottom: 20px
+    padding-left: 0
+  .header
+    &__button
+      display: block
+    &-menu
+      display: none
+    &-mobile
+      &__button
+        display: block
+@media (max-width: 490px)
+  .header
+    &__button
+      display: none
+    &-mobile
+      width: 100%
+
+// Секция hero
+@media (max-width: 992px)
+  .hero
+    &-circle
+      display: none
+      &__image
+        display: none
+@media (max-width: 992px)
+  .hero
+    &-block
+      &__title
+        margin-top: 100px
+      &__subtitle
+        padding-left: 0
+@media (max-width: 768px)
+  .hero
+    &-block
+      &__title
+        font-size: 80px
+      &__subtitle
+        margin-top: 10px
+        font-size: 18px
+    &-virtues
+      &:nth-child(4)
+        max-width: 270px
+      &:nth-child(5)
+        width: 300px
+      &:nth-child(6)
+        max-width: 400px
+      &__icon
+        min-width: 60px
+        height: 60px
+      &__text
+        margin-left: 20px
+        font-size: 14px
+        line-height: 22px
+@media (max-width: 576px)
+  .hero
+    background: none
+// Секция catalog
+@media (max-width: 1200px)
+  .catalog
+    &-block
+      &__button
+        margin-top: 15px
+    &-cards
+      justify-content: center
+    &__card
+      margin: 20px
+// Секция news
+@media (max-width: 1200px)
+  .news
+    padding-top: 60px
+    &-block
+      margin-top: 45px
+    &-content
+      padding-left: 100px
+    &-list
+      flex-basis: 47%
+@media (max-width: 992px)
+  .news
+    &-content
+      flex-basis: 50%
+      padding-left: 0
+      margin-right: 20px
+    &-list
+      flex-basis: 50%
+      margin-left: 20px
+@media (max-width: 768px)
+  .news
+    &-block
+      flex-direction: column
+    &-content
+      margin-right: 0
+      &__title
+        font-size: 20px
+      &__text
+        margin-bottom: 15px
+    &-list
+      margin-top: 40px
+      margin-left: 0
+    &-item
+      &__title
+        font-size: 20px
+
+// Секция offers
+@media (max-width: 1200px)
+  .offers
+    &-block
+      &__button
+        margin-top: 15px
+    &-cards
+      justify-content: center
+    &__card
+      margin: 20px
+
+// Секция select
+@media (max-width: 768px)
+  .select
+    &-block
+      &__title
+        font-size: 60px
+      &__subtitle
+        padding-left: 0
+        font-size: 18px
+    &-wrap
+      display: none
+@media (max-width: 576px)
+  .select
+    padding-top: 65px
+    &-circle
+      display: none
+
+// Секция footer
+@media (max-width: 1200px)
+  .footer
+    &-contacts
+      margin-left: 0
+    &-block
+      flex-direction: column
+    &-menu
+      margin-top: 30px
+    &-links
+      margin-right: 10px
+@media (max-width: 768px)
+  .footer
+    &-logo
+      display: none
+    &-menu
+      flex-wrap: wrap
+      margin-top: 0
+    &-links
+      flex-basis: 40%
+      margin-top: 30px
+      &__title
+        font-size: 16px
+      &__item
+        font-size: 14px
+    &-connect
+      flex-direction: column
+      align-items: center
+      margin-top: 50px
+    &-contacts
+      font-size: 16px
+    &-social
+      margin-top: 40px
+@media (max-width: 576px)
+  .footer
+    &-menu
+      flex-direction: column
+      align-items: center
+    &-links
+      align-items: center
+      margin-right: 0
+    &-contacts
+      flex-direction: column
+    &-email
+      margin-top: 10px
+    &-wrap
+      &__text
+        font-size: 11px
+    
